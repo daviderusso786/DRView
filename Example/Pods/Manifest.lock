@@ -1,0 +1,16 @@
+PODS:
+  - DRView (0.1.0)
+
+DEPENDENCIES:
+  - DRView (from `../`)
+
+EXTERNAL SOURCES:
+  DRView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DRView: a05f658bd5aa0fe8d805c3420ed2ef480aa67897
+
+PODFILE CHECKSUM: 3a5de5d56338d6640aec398b338a3ab2851b9e0a
+
+COCOAPODS: 1.0.1

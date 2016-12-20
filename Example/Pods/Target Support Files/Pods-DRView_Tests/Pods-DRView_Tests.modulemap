@@ -1,0 +1,6 @@
+framework module Pods_DRView_Tests {
+  umbrella header "Pods-DRView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
