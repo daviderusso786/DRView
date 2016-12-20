@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DRView_Tests' do
+  pod 'DRView', :path => '../'
+  
+  
+end
