@@ -10,8 +10,9 @@
 		07E2658996A20DCF1FAC86F6D04AB4E1 /* DRView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5825845A989773E8D98B9B7A2D2EBBA /* DRView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		311FC2DB6B8B498580156D6909D2D736 /* Pods-DRView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBA351CF28F1C12FD38CE0C6EDBAFEC /* Pods-DRView_Tests-dummy.m */; };
 		3C787AF32DC4239E5E67F9DDEE380B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A95BDDFEA647412A1A1C4E9323D4A1D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D7A572B3881E6A0228E6681C879766 /* ReplaceMe.m */; };
 		DB61B8DAAD1D515773CB7CC171A0891A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E7E3A9701E0928E400DFEB15 /* DRView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E3A96E1E0928E400DFEB15 /* DRView.h */; };
+		E7E3A9711E0928E400DFEB15 /* DRView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E3A96F1E0928E400DFEB15 /* DRView.m */; };
 		F1E733194661E72C238307D4EA506E07 /* DRView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8DE3D548A38C4413D2512C3A242EE /* DRView-dummy.m */; };
 		FE42A4BA4E396CF0DE45896EF0B39CA0 /* Pods-DRView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AE222804F280124A0EADFB2FCB4BE0 /* Pods-DRView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -36,7 +37,6 @@
 		540140A03F066F6C0A16A83515FCA223 /* Pods-DRView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		55F300776067B14FA54AC0849AE55805 /* DRView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB92F84D5BE1FC95E1396AEE1CC87A2 /* DRView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRView.xcconfig; sourceTree = "<group>"; };
-		62D7A572B3881E6A0228E6681C879766 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		6A25378A1EA4540B8F935A0FD3AEF533 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		901AF4D43808F261C2689B46947C6286 /* Pods_DRView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -47,6 +47,8 @@
 		CCF63AA78BA41A928CDC3432B98D1196 /* Pods-DRView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E1490AB91D7DEEBE7C1FB18C87207AA3 /* DRView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRView-prefix.pch"; sourceTree = "<group>"; };
+		E7E3A96E1E0928E400DFEB15 /* DRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRView.h; sourceTree = "<group>"; };
+		E7E3A96F1E0928E400DFEB15 /* DRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRView.m; sourceTree = "<group>"; };
 		FAC8DE3D548A38C4413D2512C3A242EE /* DRView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,7 +161,8 @@
 		DE807F71CC0A8060D503D782B442206C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				62D7A572B3881E6A0228E6681C879766 /* ReplaceMe.m */,
+				E7E3A96E1E0928E400DFEB15 /* DRView.h */,
+				E7E3A96F1E0928E400DFEB15 /* DRView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E2658996A20DCF1FAC86F6D04AB4E1 /* DRView-umbrella.h in Headers */,
+				E7E3A9701E0928E400DFEB15 /* DRView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E3A9711E0928E400DFEB15 /* DRView.m in Sources */,
 				F1E733194661E72C238307D4EA506E07 /* DRView-dummy.m in Sources */,
-				A95BDDFEA647412A1A1C4E9323D4A1D1 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
